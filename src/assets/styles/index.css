@@ -21,3 +21,69 @@ h6 {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
 }
+
+header {}
+
+header div.header-top {}
+
+header div.header-top img {}
+
+header div.header-top a {}
+
+header div.header-hero {}
+
+header div.header-hero div.hero-text {}
+
+header div.header-hero div.hero-text h2 {}
+
+header div.header-hero div.hero-text p {}
+
+header div.header-hero div.hero-text a {}
+
+header div.header-hero div.hero-img {}
+
+section {}
+
+section div.card {}
+
+section div.card div.card-text {}
+
+section div.card div.card-text h2 {}
+
+section div.card div.card-text p {}
+
+section div.card div.card-img {}
+
+div.cta {}
+
+div.cta h2 {}
+
+div.cta a#cta-btn {}
+
+footer {}
+
+footer div.footer-content {}
+
+footer div.footer-content div.content-logo {}
+
+footer div.footer-content div.content-list {}
+
+footer div.footer-content div.content-list ul.contact-list {}
+
+footer div.footer-content div.content-list ul.contact-list li.contact-adress {}
+
+footer div.footer-content div.content-list ul.contact-list li.contact-number {}
+
+footer div.footer-content div.content-list ul.contact-list li.contact-email {}
+
+footer div.footer-content div.content-list ul {}
+
+footer div.footer-content div.content-list ul li {}
+
+footer div.footer-content div.content-list ul.social-list {}
+
+footer div.footer-content div.content-list ul.social-list li {}
+
+footer div.footer-content div.content-list ul.social-list li a {}
+
+footer div.copyright {}

@@ -1,4 +1,22 @@
-body {
-  background-color: rgb(255, 255, 255);
-  color: rgb(0, 0, 0);
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  color: black;
+  background-color: white;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.center {
+  justify-items: center;
+  align-items: center;
 }

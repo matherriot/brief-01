@@ -21,7 +21,7 @@ h6 {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   margin-block-start: 0;
-    margin-block-end: 0;
+  margin-block-end: 0;
 }
 
 body {
@@ -31,42 +31,40 @@ body {
   align-items: stretch;
 
   margin: 0;
-    padding: 0;
-    border: 0;
-  
-    width: 100%;
-    min-height: 100vh;
-  }
-  
-  header {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: stretch;
-  
-    height: 95vh;
-  
-    background: url(../img/bg_hero_desktop.svg), var(--neutral-vpc);
-    background-position-x: 50%;
-    background-position-y: 70%;
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-  
-  header div.header-top {
-  
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-  
-    padding: 32px;
-  
-  }
-  
-  header div.header-top img {
-    height: 32px;
-  }
+  padding: 0;
+  border: 0;
+
+  width: 100%;
+  min-height: 100vh;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+
+  height: 95vh;
+
+  background: url(../img/bg_hero_desktop.svg), var(--neutral-vpc);
+  background-position-x: 50%;
+  background-position-y: 70%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+header div.header-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 32px;
+}
+
+header div.header-top img {
+  height: 32px;
+}
 
 header div.header-top a {
   background-color: white;
@@ -87,7 +85,7 @@ header div.header-hero div.hero-text {
   gap: 1.5rem;
 
   max-width: 45vw;
-  }
+}
 
 header div.header-hero div.hero-text h2 {
   font-size: 40px;
@@ -98,7 +96,8 @@ header div.header-hero div.hero-text p {
   max-width: 82.5%;
 }
 
-header div.header-hero div.hero-text a {}
+header div.header-hero div.hero-text a {
+}
 
 header div.header-hero div.hero-img {
   background-image: url(../img/illustration_mockups.svg);
@@ -108,48 +107,79 @@ header div.header-hero div.hero-img {
   height: 70vh;
 }
 
-section {}
+section {
+}
 
-section div.card {}
+section div.card {
+  height: 95vh;
+  display: flex;
+  flex-direction: row;
+  padding: 5%;
+  margin: 5%;
+  box-shadow: 5px 5px 24px -5px #000000;
+}
 
-section div.card div.card-text {}
+section div.card div.card-text {
+}
 
-section div.card div.card-text h2 {}
+section div.card div.card-text h2 {
+  font-size: xx-small;
+}
 
-section div.card div.card-text p {}
+section div.card div.card-text p {
+  font-size: ;
+}
 
-section div.card div.card-img {}
+section div.card div.card-img {
+}
 
-div.cta {}
+/* div.cta {
+}
 
-div.cta h2 {}
+div.cta h2 {
+}
 
-div.cta a#cta-btn {}
+div.cta a#cta-btn {
+}
 
-footer {}
+footer {
+}
 
-footer div.footer-content {}
+footer div.footer-content {
+}
 
-footer div.footer-content div.content-logo {}
+footer div.footer-content div.content-logo {
+}
 
-footer div.footer-content div.content-list {}
+footer div.footer-content div.content-list {
+}
 
-footer div.footer-content div.content-list ul.contact-list {}
+footer div.footer-content div.content-list ul.contact-list {
+}
 
-footer div.footer-content div.content-list ul.contact-list li.contact-adress {}
+footer div.footer-content div.content-list ul.contact-list li.contact-adress {
+}
 
-footer div.footer-content div.content-list ul.contact-list li.contact-number {}
+footer div.footer-content div.content-list ul.contact-list li.contact-number {
+}
 
-footer div.footer-content div.content-list ul.contact-list li.contact-email {}
+footer div.footer-content div.content-list ul.contact-list li.contact-email {
+}
 
-footer div.footer-content div.content-list ul {}
+footer div.footer-content div.content-list ul {
+}
 
-footer div.footer-content div.content-list ul li {}
+footer div.footer-content div.content-list ul li {
+}
 
-footer div.footer-content div.content-list ul.social-list {}
+footer div.footer-content div.content-list ul.social-list {
+}
 
-footer div.footer-content div.content-list ul.social-list li {}
+footer div.footer-content div.content-list ul.social-list li {
+}
 
-footer div.footer-content div.content-list ul.social-list li a {}
+footer div.footer-content div.content-list ul.social-list li a {
+}
 
-footer div.copyright {}
+footer div.copyright {
+} */

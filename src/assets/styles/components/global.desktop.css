@@ -317,7 +317,8 @@
     padding-right: 10px;
   }
 
-  .facebook {
-    font-style: white;
+  .image-social:hover {
+    filter: brightness(0) saturate(100%) invert(61%) sepia(43%) saturate(5909%)
+      hue-rotate(287deg) brightness(92%) contrast(98%);
   }
 }

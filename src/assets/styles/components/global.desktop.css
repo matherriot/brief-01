@@ -329,8 +329,8 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    display: none;
   }
+
   .close-modal {
     display: flex;
     align-items: center;
@@ -377,6 +377,8 @@
 
   .container-modal .close-modal .header-modal .text-header-modal h1 {
     font-size: x-large;
+    display: flex;
+    justify-content: center;
   }
 
   .container-modal .close-modal .header-modal .text-header-modal p {
@@ -390,15 +392,21 @@
     text-decoration: none;
     text-transform: capitalize;
     font-weight: 600;
-    background-color: #fafafa;
+    background-color: #000000;
     -webkit-box-shadow: 1px 1px 15px 5px rgba(194, 194, 194, 0.28);
     box-shadow: 1px 1px 15px 5px rgba(194, 194, 194, 0.28);
-    padding: 12px 64px;
     border-radius: 999px;
     transition: background-color 1s ease 0s;
     text-shadow: 1px 1px 4px rgba(255, 255, 255, 0.5);
   }
 
   .fond-overlay {
+    background-color: #000000;
+    z-index: 2;
+    border: 500px;
+  }
+
+  .no-scroll {
+    overflow: hidden;
   }
 }

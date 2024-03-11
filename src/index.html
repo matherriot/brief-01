@@ -15,7 +15,38 @@
     <title>Huddle</title>
   </head>
 
-  <body>
+  <body class="no-scroll">
+    <div class="blur"></div>
+
+    <div class="fond-overlay" id="close">
+      <div class="container-modal">
+        <div class="close-modal">
+          <div class="footer">
+            <button class="button-close" onclick="openWin()">
+              <img
+                src="assets/img/close-medal.svg"
+                alt=""
+                srcset=""
+                height="20"
+                width="20"
+              />
+            </button>
+            <img src="assets/img/cookie.png" height="150" width="200" />
+          </div>
+          <div class="header-modal">
+            <div class="text-header-modal">
+              <h1>Hello</h1>
+              <p>Mange Mon Cookie</p>
+            </div>
+            <div class="button-close-modal">
+              <button class="button-modal-sup" onclick="myFunction()">
+                Click Me
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <header>
       <div class="header-top">
         <img src="assets/img/logo.svg" alt="Logo of Huddle" />
@@ -163,5 +194,7 @@
       </div>
       <div class="copyright">© Copyright 2018 Huddle.All rights reserved</div>
     </footer>
+    <script src="assets/scripts/index.js"></script>
   </body>
+  <script></script>
 </html>

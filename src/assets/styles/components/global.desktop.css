@@ -149,7 +149,8 @@
     font-size: 24px;
   }
 
-  section div.card div.card-text p {}
+  section div.card div.card-text p {
+  }
 
   section div.card div.card-img {
     /* background-image: url(../../img/illustration_grow_together.svg); */
@@ -190,7 +191,8 @@
     box-shadow: 0px -5px 20px 5px rgba(0, 0, 0, 0.1);
   }
 
-  div.cta a:hover {}
+  div.cta a:hover {
+  }
 
   div.cta h2 {
     font-size: 32px;
@@ -226,7 +228,8 @@
   }
 
   footer div.footer-content div.content-logo {
-    filter: brightness(0) saturate(100%) invert(100%) sepia(3%) saturate(7487%) hue-rotate(86deg) brightness(105%) contrast(105%);
+    filter: brightness(0) saturate(100%) invert(100%) sepia(3%) saturate(7487%)
+      hue-rotate(86deg) brightness(105%) contrast(105%);
     padding-left: 120px;
   }
 
@@ -239,7 +242,8 @@
   }
 
   footer div.footer-content div.content-list ul.contact-list {
-    filter: brightness(0) saturate(100%) invert(100%) sepia(72%) saturate(2%) hue-rotate(55deg) brightness(112%) contrast(101%);
+    filter: brightness(0) saturate(100%) invert(100%) sepia(72%) saturate(2%)
+      hue-rotate(55deg) brightness(112%) contrast(101%);
   }
 
   footer div.footer-content div.content-list ul {
@@ -248,18 +252,26 @@
   }
 
   footer div.footer-content div.content-list ul.contact-list li.contact-adress {
-    filter: brightness(0) saturate(100%) invert(100%) sepia(72%) saturate(2%) hue-rotate(55deg) brightness(112%) contrast(101%);
+    filter: brightness(0) saturate(100%) invert(100%) sepia(72%) saturate(2%)
+      hue-rotate(55deg) brightness(112%) contrast(101%);
     max-width: 20vw;
     padding: 10px;
     text-wrap: wrap;
   }
 
   footer div.footer-content div.content-list ul.contact-list li.contact-number {
-    filter: brightness(0) saturate(100%) invert(100%) sepia(72%) saturate(2%) hue-rotate(55deg) brightness(112%) contrast(101%);
+    filter: brightness(0) saturate(100%) invert(100%) sepia(72%) saturate(2%)
+      hue-rotate(55deg) brightness(112%) contrast(101%);
   }
 
-  footer div.footer-content div.content-list ul.contact-list li.contact-number svg {
-    filter: brightness(0) saturate(100%) invert(100%) sepia(72%) saturate(2%) hue-rotate(55deg) brightness(112%) contrast(101%);
+  footer
+    div.footer-content
+    div.content-list
+    ul.contact-list
+    li.contact-number
+    svg {
+    filter: brightness(0) saturate(100%) invert(100%) sepia(72%) saturate(2%)
+      hue-rotate(55deg) brightness(112%) contrast(101%);
   }
 
   footer div.footer-content div.content-list ul.contact-list li.contact-email {
@@ -283,7 +295,8 @@
     justify-content: space-between;
   }
 
-  footer div.footer-content div.content-list ul.social-list li {}
+  footer div.footer-content div.content-list ul.social-list li {
+  }
 
   footer div.footer-content div.content-list ul.social-list li a {
     color: var(--neutral-vdc);
@@ -311,9 +324,10 @@
   }
 
   .image-social:hover {
-    filter: brightness(0) saturate(100%) invert(61%) sepia(43%) saturate(5909%) hue-rotate(287deg) brightness(92%) contrast(98%);
+    filter: brightness(0) saturate(100%) invert(61%) sepia(43%) saturate(5909%)
+      hue-rotate(287deg) brightness(92%) contrast(98%);
   }
-  
+
   /* modal */
 
   .container-modal {
@@ -328,10 +342,12 @@
     align-items: center;
     flex-direction: column;
     border-radius: 15px;
-    width: 300px;
-    height: 300px;
+    width: 50vw;
+    height: 70vh;
     background-color: #ffffff;
     box-shadow: 0px -5px 20px 5px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    justify-content: center;
   }
 
   .container--modal {
@@ -340,10 +356,19 @@
 
   .button-close {
     position: absolute;
-    left: 250px;
-    top: 10px;
-    align-items: center;
-    display: flex;
+    top: 6%;
+    left: 85%;
+    border-radius: 50%;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: #ffffff;
+    text-shadow: 1px 1px 4px rgba(255, 255, 255, 0.5);
+    padding: 6px 8px 6px 6px;
+    border-radius: 999px;
+    background-color: #e84fbf;
+    transition: background-color 1s ease 0s;
+    box-shadow: 1px 1px 15px 5px rgba(194, 194, 194, 0.28);
   }
 
   .header-modal {

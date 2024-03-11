@@ -22,7 +22,7 @@ ModalExitBtn.addEventListener("click", () => {
   Modal.innerHTML = null;
   // Insérer le rickroll
   Modal.innerHTML = `
-  <img src="assets/img/roll.gif">
+  <img src="assets/img/roll.gif" alt="Rick Roll">
   `
   setTimeout(() => {
     RickRollSound.play();

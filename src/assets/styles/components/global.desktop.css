@@ -149,12 +149,17 @@
     font-size: 24px;
   }
 
-  section div.card div.card-text p {
-  }
+  section div.card div.card-text p {}
 
   section div.card div.card-img {
     /* background-image: url(../../img/illustration_grow_together.svg); */
+    /* width: 350px;
+    height: 300px; */
     max-height: 400px;
+  }
+
+  section div.card div.card-img img {
+    width: 90%;
   }
 
   aside {
@@ -185,8 +190,7 @@
     box-shadow: 0px -5px 20px 5px rgba(0, 0, 0, 0.1);
   }
 
-  div.cta a:hover {
-  }
+  div.cta a:hover {}
 
   div.cta h2 {
     font-size: 32px;
@@ -222,8 +226,7 @@
   }
 
   footer div.footer-content div.content-logo {
-    filter: brightness(0) saturate(100%) invert(100%) sepia(3%) saturate(7487%)
-      hue-rotate(86deg) brightness(105%) contrast(105%);
+    filter: brightness(0) saturate(100%) invert(100%) sepia(3%) saturate(7487%) hue-rotate(86deg) brightness(105%) contrast(105%);
     padding-left: 120px;
   }
 
@@ -236,8 +239,7 @@
   }
 
   footer div.footer-content div.content-list ul.contact-list {
-    filter: brightness(0) saturate(100%) invert(100%) sepia(72%) saturate(2%)
-      hue-rotate(55deg) brightness(112%) contrast(101%);
+    filter: brightness(0) saturate(100%) invert(100%) sepia(72%) saturate(2%) hue-rotate(55deg) brightness(112%) contrast(101%);
   }
 
   footer div.footer-content div.content-list ul {
@@ -246,26 +248,18 @@
   }
 
   footer div.footer-content div.content-list ul.contact-list li.contact-adress {
-    filter: brightness(0) saturate(100%) invert(100%) sepia(72%) saturate(2%)
-      hue-rotate(55deg) brightness(112%) contrast(101%);
+    filter: brightness(0) saturate(100%) invert(100%) sepia(72%) saturate(2%) hue-rotate(55deg) brightness(112%) contrast(101%);
     max-width: 20vw;
     padding: 10px;
     text-wrap: wrap;
   }
 
   footer div.footer-content div.content-list ul.contact-list li.contact-number {
-    filter: brightness(0) saturate(100%) invert(100%) sepia(72%) saturate(2%)
-      hue-rotate(55deg) brightness(112%) contrast(101%);
+    filter: brightness(0) saturate(100%) invert(100%) sepia(72%) saturate(2%) hue-rotate(55deg) brightness(112%) contrast(101%);
   }
 
-  footer
-    div.footer-content
-    div.content-list
-    ul.contact-list
-    li.contact-number
-    svg {
-    filter: brightness(0) saturate(100%) invert(100%) sepia(72%) saturate(2%)
-      hue-rotate(55deg) brightness(112%) contrast(101%);
+  footer div.footer-content div.content-list ul.contact-list li.contact-number svg {
+    filter: brightness(0) saturate(100%) invert(100%) sepia(72%) saturate(2%) hue-rotate(55deg) brightness(112%) contrast(101%);
   }
 
   footer div.footer-content div.content-list ul.contact-list li.contact-email {
@@ -289,8 +283,7 @@
     justify-content: space-between;
   }
 
-  footer div.footer-content div.content-list ul.social-list li {
-  }
+  footer div.footer-content div.content-list ul.social-list li {}
 
   footer div.footer-content div.content-list ul.social-list li a {
     color: var(--neutral-vdc);
@@ -318,10 +311,9 @@
   }
 
   .image-social:hover {
-    filter: brightness(0) saturate(100%) invert(61%) sepia(43%) saturate(5909%)
-      hue-rotate(287deg) brightness(92%) contrast(98%);
+    filter: brightness(0) saturate(100%) invert(61%) sepia(43%) saturate(5909%) hue-rotate(287deg) brightness(92%) contrast(98%);
   }
-
+  
   /* modal */
 
   .container-modal {

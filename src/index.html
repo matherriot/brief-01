@@ -16,13 +16,11 @@
   </head>
 
   <body class="no-scroll">
-    <div class="blur"></div>
-
-    <div class="fond-overlay" id="close">
-      <div class="container-modal">
+    <div class="fond-overlay" id="modal-bg">
+      <div class="container-modal" id="modal">
         <div class="close-modal">
-          <div class="footer">
-            <button class="button-close" onclick="openWin()">
+          <div>
+            <button class="button-close" id="modal-close-btn">
               <img
                 src="assets/img/close-medal.svg"
                 alt=""
@@ -39,7 +37,7 @@
               <p>Mange Mon Cookie</p>
             </div>
             <div class="button-close-modal">
-              <button class="button-modal-sup" onclick="myFunction()">
+              <button class="button-modal-sup" id="modal-validate-btn">
                 Click Me
               </button>
             </div>
